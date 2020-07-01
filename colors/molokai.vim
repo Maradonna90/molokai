@@ -26,6 +26,10 @@ else
     let s:molokai_original = 0
 endif
 
+"GitGutter Colors
+highlight GitGutterAdd    guifg=#009900 ctermfg=2
+highlight GitGutterChange guifg=#bbbb00 ctermfg=3
+highlight GitGutterDelete guifg=#ff2222 ctermfg=1
 
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#E6DB74
